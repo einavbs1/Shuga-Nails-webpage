@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Manager Page</title>
+        <link rel="stylesheet" href="ShugaSite.css">
+        <script src="ShugaSite.js"></script>
+        <script src="readAndWriteData.js"></script>
+    </head>
+
+    <body id="administartorpage">
+        <table>
+            <tr> 
+                <td><h1>Administrator page</h1></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="Return to home page" id="button" onclick="returnToHomePage()"></td>
+            </tr>
+        </table> 
+        <h2>Appointment requests:</h2></br>
+        <input type="button" value = "printAllBookings" onclick="getAllBookings()"></br></br>
+        Booking to remove (Enter phone): <input type="text" id="removeBooking" name="removeBooking"> 
+        <input type="button" value="remove" onclick="removeBooking()"></br>
+        <p id="allBookings"></p>
+			
+		</br></br>
+		
+		<h2>Course order requests:</h2></br>
+        <input type="button" value = "printAllBookings" onclick="getAllBookingscourses()"></br></br>
+        Booking to remove (Enter phone): <input type="text" id="removeBookingfromcourse" name="removeBooking"> 
+        <input type="button" value="remove" onclick="removeBookingfromcourses()"></br>
+        <p id="allcoursesBookings"></p>
+		
+    </body>
+</html>

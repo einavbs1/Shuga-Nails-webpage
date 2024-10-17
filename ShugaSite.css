@@ -1,0 +1,266 @@
+body {
+    background-color: rgb(255,219,255)	;
+}
+
+/*set logo site in the center of the page */
+#LogoSite {
+    margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+    text-align: center; /* Center text inside the element */
+}
+
+
+/* Table buttons order */
+#Bookingorder { 
+    margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+    text-align: center; /* Center text inside the element */
+}
+
+/* style for instgram text */
+#instalink{
+	text-decoration-color: rgb(255, 0, 102);
+	text-shadow: 2px 2px rgb(51, 51, 204);
+	color: rgb(255, 0, 102);
+	
+}
+
+/* First pharagrap */
+#storyofmylife {
+	margin: 0 auto;
+	width: fit-content;
+	text-align: center;
+	font-family: Papyrus;
+}
+
+
+
+/* Treatment table*/
+#TreatmentsTable{
+	margin: 0 auto;
+	width: fit-content;
+	text-align: center;
+	font-family: Papyrus;
+}
+
+
+/* header or courses table*/
+#TableHeadercenterCourses{
+	margin: 0 auto;
+	width: fit-content;
+	text-align: center;
+	font-family: Papyrus;
+}
+
+
+/* Courses table*/
+#Coursesstyle {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: fit-content;
+	text-align: left;
+	font-family: Papyrus;
+}
+
+
+/* Headers style*/
+#header1{
+	font-family: Papyrus;
+	text-decoration-line: underline;
+	text-decoration-thickness: 5px;
+	text-decoration-color: rgb(102, 0, 102);
+	text-shadow: 2px 2px rgb(240, 93, 240);
+	color: rgb(102, 0, 102);
+	margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+/* Style for first sentnce of the page.*/
+#header2{
+	text-decoration-color: gray;
+	text-shadow: 2px 2px pink;
+	color: rgb(102, 0, 102);
+}
+
+/* Style for every course header*/
+#HeaderCourses{
+	margin: 0 auto;
+	width: fit-content;
+	text-align: center;
+	font-family: Papyrus;
+	color: rgb(102, 0, 102);
+	style: bold;
+}
+
+#homepagefooter{
+	margin: 0 auto;
+	text-align: center;
+	font-family: Papyrus;
+	style: bold;
+	
+}
+
+#headerhomepage{
+	margin: 0 auto;
+	text-align: center;
+	font-family: Papyrus;
+}
+
+ /* style for footer text */
+#footerlink{
+	text-decoration-color: rgb(188, 229, 241);
+	text-shadow: 2px 2px rgb(229, 97, 255);
+	color: rgb(255, 255, 255);
+	
+}
+
+
+#button{
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(247, 191, 244);
+    color: rgb(201, 5, 191);
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ 
+#FormButtons{
+	padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+	background: linear-gradient(to top left, #CE59BE, #BC5AC9, #A15CDA);
+    color: white;
+	transition: background 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#adminicon{
+	cursor: pointer;
+}
+/*-------------------Section for Forms htmls-------------------------------*/
+
+/*Treatments Form*/
+#AppointmentTableForm{
+	font-family: Papyrus;
+	font-size: 18;
+	font-weight: bold;
+	margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+}
+/*style for prices table in forms */
+#priceTreatment{
+	font-family: Papyrus;
+	font-size: 18;
+	font-weight: bold;
+	margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+/* Style for the button on the end page on the forms*/
+#buttonsOrder{
+	margin: 0 auto; /* Center the element horizontally */
+	text-align: center;
+}
+
+#res{
+	font-family: Papyrus;
+	font-size: 18;
+	font-weight: bold;
+	margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+	text-align: center;
+}
+
+
+#SentFormMessage{
+	font-family: Papyrus;
+	font-size: 18;
+	font-weight: bold;
+	margin: 0 auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust width to fit content */
+	text-align: center;
+}
+
+/*-------------------Section for Administartor htmls-------------------------------*/
+
+
+#administartorpage{
+	font-family: Papyrus;
+	font-weight: bold;
+}
+/* none style for resualt of orders.*/
+#allBookings{
+	font-family: Ariel;
+
+}
+/* none style for resualt of orders.*/
+#allcoursesBookings{
+	font-family: Ariel;
+
+}
+
+
+
+/*-------------------Section for Drag and Drop htmls (in ShugasTreatment browser-------------------------------*/
+#dragArea{
+    border: 2px dashed #000;
+    height: 230px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /*y axis align (relative to the container)*/
+    justify-content: center; /*x axis align (relative to the container)*/
+    flex-direction: column; /*sort the items in a row, objects like divs and spans will automatically appear in a new line*/
+	margin: 50px 0 0 0;
+}
+
+#dragArea.active {
+    border: 2px solid; /* Change the border style to solid (undashed) when the element has the "active" class (in js, this command: dropArea.classList.remove("active"))*/
+}
+
+#dragArea.reset {
+    border: 2px dashed #000; /* Set the border style to dashed for the element with the "reset" class */
+}
+
+#uploadedImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#cloudIcon{
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#ddHeader{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#Or{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 15px 0;  /*make some spaces between "Or" to the browse button and the sentence above*/
+ }
+
+ #browseFileButton{
+    padding: 3px 10px;/*size of the button*/
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(187, 187, 187);
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+
