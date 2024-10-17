@@ -1,4 +1,4 @@
-Download all the 35 files.
-Create New folder and put all the download files in.
-Double click the "ShugaHomepage" file.
-Enjoy :)
+1. Download all the 35 files.
+2. 2. Create New folder and put all the download files in.
+3. Double click the "ShugaHomepage" file.
+4. Enjoy :)
